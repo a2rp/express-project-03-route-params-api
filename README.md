@@ -1,6 +1,7 @@
 # express-project-03-route-params-api
 
 A simple Express.js backend project demonstrating how to use route parameters in an API.
+The endpoint returns generated example data from the URL parameter; it does not read from a database.
 
 ## Concept
 
@@ -25,17 +26,17 @@ req.params.id
 
 ```
 express-project-03-route-params-api
-│
-├─ src
-│  ├─ controllers
-│  │  └─ user.controller.js
-│  │
-│  └─ routes
-│     └─ user.routes.js
-│
-├─ index.js
-├─ package.json
-└─ .gitignore
+├── src/
+│   ├── controllers/
+│   │   └── user.controller.js
+│   └── routes/
+│       └── user.routes.js
+├── .gitignore
+├── image.png
+├── index.js
+├── package-lock.json
+├── package.json
+└── README.md
 ```
 
 ## Installation
@@ -56,7 +57,7 @@ npm install
 ## Run the Server
 
 ```bash
-node index.js
+npm start
 ```
 
 Server runs at:
@@ -79,7 +80,7 @@ Example:
 http://localhost:3000/users/25
 ```
 
-![alt text](image.png)
+![The GET /users/25 route returning generated user data in a browser](image.png)
 
 Response:
 
