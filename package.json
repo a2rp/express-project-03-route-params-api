@@ -1,11 +1,11 @@
 {
   "name": "express-project-03-route-params-api",
+  "private": true,
   "version": "1.0.0",
   "description": "A beginner Express.js API demonstrating route parameters with a sample user endpoint.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
